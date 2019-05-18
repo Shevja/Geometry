@@ -1,14 +1,14 @@
+#include <malloc.h>
 #include <math.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <malloc.h>
 
 int area(float r1, float pi)
 {
     float s = pi * r1;
 
-    //printf("%f\n\n", s);
+    // printf("%f\n\n", s);
     return s;
 }
 
@@ -24,6 +24,6 @@ int perim(float r1, float pi)
 {
     float s = 2 * pi * r1;
 
-    //printf("%f\n\n", s);
+    // printf("%f\n\n", s);
     return s;
 }

@@ -1,8 +1,8 @@
+#include "func.h"
 #include <malloc.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "func.h"
-					
+
 /*void area(float r1, float pi)
 {
     float s = pi * r1;
@@ -38,8 +38,12 @@ int main()
     pir1 = perim(r1, pi);
     pir2 = perim(r2, pi);
 
-    printf("Площадь первой окружности: %f\tПлощадь второй окружности: %f\n\n", s1, s2);
-    printf("Периметр первой окружности: %f\tПериметр второй окружности: %f\n\n", pir1, pir2);
-    
+    printf("Площадь первой окружности: %f\tПлощадь второй окружности: %f\n\n",
+           s1,
+           s2);
+    printf("Периметр первой окружности: %f\tПериметр второй окружности: %f\n\n",
+           pir1,
+           pir2);
+
     return 0;
 }
